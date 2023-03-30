@@ -53,6 +53,12 @@ Sample return:
 }
 ```
 
+## You can run the update references to import Thunder collection
+```
+chmod +x updateGitpodRefsUrl.sh 
+./updateGitpodRefsUrl.sh ./thunder-collection_Javaweek.json
+```
+
 ## Export the collection of Thunder client into project folder
 thunder-collection_Javaweek.json
 

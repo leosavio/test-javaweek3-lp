@@ -45,7 +45,7 @@
             ],
             "body": {
                 "type": "json",
-                "raw": "{\"id\":2,\"nome\":\"Curso de Aws\",\"preco\":999.90,\"pessoaInstrutora\":\"Thais Araujo\"}",
+                "raw": "{\"id\":2,\"nome\":\"Curso de Aws\",\"preco\":999.90,\"pessoaInstrutora\":\"Gitpod Thunder\"}",
                 "form": []
             },
             "tests": []
@@ -64,7 +64,7 @@
             "params": [
                 {
                     "name": "id",
-                    "value": "2",
+                    "value": "1",
                     "isPath": true
                 }
             ],
@@ -98,7 +98,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\"nome\":\"Curso de Aws\",\"preco\":2200.0,\"pessoaInstrutora\":\"Thais Araujo\"}",
+                "raw": "{\"nome\":\"Curso de Aws\",\"preco\":2200.0,\"pessoaInstrutora\":\"Gitpod Thunder\"}",
                 "form": []
             },
             "tests": []
