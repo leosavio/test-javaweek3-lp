@@ -1,6 +1,10 @@
 ## Fork of infra-gitpod-template
 - https://github.com/leosavio/infra-gitpod-template
 
+## Description
+- A simple springboot api using H2 in memory, java 19 using sdk/springboot cli tools, Gitpod and Thunder Extension
+- Enjoy
+
 ## install springboot cli
 ```
 sdk install springboot
