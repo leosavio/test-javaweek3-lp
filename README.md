@@ -54,7 +54,7 @@ thunder-collection_Javaweek.json
 
 ## Commit
 ```
-../git-push-all.sh 
+./git-push-all.sh 
 ```
 
 ## Its done
