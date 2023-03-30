@@ -1,0 +1,107 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Javaweek",
+    "dateExported": "2023-03-30T00:19:16.050Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9cea1fb0-636f-4c39-ad2e-3b5980e43d1e",
+            "colId": "8a1bcdbb-171a-40ff-ae57-10c965ab9aeb",
+            "containerId": "",
+            "name": "Delete",
+            "url": "https://8080-leosavio-testjavaweek3l-8105frq63wu.ws-us93.gitpod.io/api/cursos/{id}",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-30T00:18:33.643Z",
+            "modified": "2023-03-30T00:18:33.643Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "09af35d5-9aa1-49c2-9ae0-11577f0ff9e7",
+            "colId": "8a1bcdbb-171a-40ff-ae57-10c965ab9aeb",
+            "containerId": "",
+            "name": "Update",
+            "url": "https://8080-leosavio-testjavaweek3l-8105frq63wu.ws-us93.gitpod.io/api/cursos/{id}",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-03-30T00:18:50.632Z",
+            "modified": "2023-03-30T00:18:50.632Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\"id\":2,\"nome\":\"Curso de Aws\",\"preco\":999.90,\"pessoaInstrutora\":\"Thais Araujo\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e6db2b82-980d-4d72-9e22-6c8e9a083fcc",
+            "colId": "8a1bcdbb-171a-40ff-ae57-10c965ab9aeb",
+            "containerId": "",
+            "name": "GetId",
+            "url": "https://8080-leosavio-testjavaweek3l-8105frq63wu.ws-us93.gitpod.io/api/cursos/{id}",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-03-30T00:19:01.793Z",
+            "modified": "2023-03-30T00:19:01.793Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f201f6a7-8766-4752-a0f1-50f2604eea36",
+            "colId": "8a1bcdbb-171a-40ff-ae57-10c965ab9aeb",
+            "containerId": "",
+            "name": "Listar",
+            "url": "https://8080-leosavio-testjavaweek3l-8105frq63wu.ws-us93.gitpod.io/api/cursos",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-30T00:19:06.137Z",
+            "modified": "2023-03-30T00:19:06.137Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f107da99-24df-4eda-a438-43da3add7e64",
+            "colId": "8a1bcdbb-171a-40ff-ae57-10c965ab9aeb",
+            "containerId": "",
+            "name": "Cadastro",
+            "url": "https://8080-leosavio-testjavaweek3l-8105frq63wu.ws-us93.gitpod.io/api/cursos",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-03-30T00:19:09.648Z",
+            "modified": "2023-03-30T00:19:09.648Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"nome\":\"Curso de Aws\",\"preco\":2200.0,\"pessoaInstrutora\":\"Thais Araujo\"}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
